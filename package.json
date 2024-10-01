@@ -1,0 +1,18 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tsc -b tsconfig.json",
+    "start": "node dist/day2/index.js",
+    "cstart": "yarn compile && node dist/day2/index.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.3",
+    "@langchain/openai": "^0.3.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.2",
+    "typescript": "^5.6.2"
+  }
+}
