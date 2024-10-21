@@ -1,4 +1,7 @@
 # Learnings
+Learn about how to build a chatbot using Langchain.
+https://js.langchain.com/docs/tutorials/chatbot#prompt-templates
+
 ## JS
 #### `await` can be used in `for of` loop
 ```js
@@ -42,9 +45,10 @@ class MessagesPlaceholder {
 }
 ```
 
-#### Langchain
+## Langchain
 * MessagesAnnotation
 * GraphAnnotation
 
-### Todo
+
+# Todos
 * [ ] Make the repo a monorepo
