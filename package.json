@@ -5,11 +5,12 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc -b tsconfig.json",
-    "start": "node dist/day2/index.js",
-    "cstart": "yarn compile && node dist/day2/index.js"
+    "start": "node dist/day3/index.js",
+    "cstart": "yarn compile && node dist/day3/index.js"
   },
   "dependencies": {
     "@langchain/core": "^0.3.3",
+    "@langchain/langgraph": "^0.2.15",
     "@langchain/openai": "^0.3.0",
     "dotenv": "^16.4.5",
     "langchain": "^0.3.2",

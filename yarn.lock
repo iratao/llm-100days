@@ -19,6 +19,23 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
+"@langchain/langgraph-checkpoint@~0.0.10":
+  version "0.0.10"
+  resolved "https://registry.npmmirror.com/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-0.0.10.tgz#30d896ff48a9431ece0afa7e60e420ad2234b338"
+  integrity sha512-BMfJD5Eg39pM0iJmEv50qJL5dJJI5U2oHuNXixWlQ1BKsvtbSs713+EHc21uuvcJUct1MPiv7RdfvwXycLM/aQ==
+  dependencies:
+    uuid "^10.0.0"
+
+"@langchain/langgraph@^0.2.15":
+  version "0.2.15"
+  resolved "https://registry.npmmirror.com/@langchain/langgraph/-/langgraph-0.2.15.tgz#6dfc6b7dda0b55460494c6fe4164c1c8e621ec93"
+  integrity sha512-ThazPbOILQeIKFwWxah12kNDNLof3o6CMBziMAn/bED5P5SasQwGLO5QGJXyNpzfUyUdSCKkjaplGLL0lUlaWQ==
+  dependencies:
+    "@langchain/langgraph-checkpoint" "~0.0.10"
+    double-ended-queue "^2.1.0-0"
+    uuid "^10.0.0"
+    zod "^3.23.8"
+
 "@langchain/openai@>=0.1.0 <0.4.0", "@langchain/openai@^0.3.0":
   version "0.3.2"
   resolved "https://registry.npmmirror.com/@langchain/openai/-/openai-0.3.2.tgz#6c7b7693bef4572a1b3fb1032bfb9977aa269d13"
@@ -133,6 +150,11 @@ dotenv@^16.4.5:
   version "16.4.5"
   resolved "https://registry.npmmirror.com/dotenv/-/dotenv-16.4.5.tgz#cdd3b3b604cb327e286b4762e13502f717cb099f"
   integrity sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==
+
+double-ended-queue@^2.1.0-0:
+  version "2.1.0-0"
+  resolved "https://registry.npmmirror.com/double-ended-queue/-/double-ended-queue-2.1.0-0.tgz#103d3527fd31528f40188130c841efdd78264e5c"
+  integrity sha512-+BNfZ+deCo8hMNpDqDnvT+c0XpJ5cUa6mqYq89bho2Ifze4URTqRkcwR399hWoTrTkbZ/XJYDgP6rc7pRgffEQ==
 
 event-target-shim@^5.0.0:
   version "5.0.1"
@@ -365,7 +387,7 @@ zod-to-json-schema@^3.22.3:
   resolved "https://registry.npmmirror.com/zod-to-json-schema/-/zod-to-json-schema-3.23.3.tgz#56cf4e0bd5c4096ab46e63159e20998ec7b19c39"
   integrity sha512-TYWChTxKQbRJp5ST22o/Irt9KC5nj7CdBKYB/AosCRdj/wxEMvv4NNaj9XVUHDOIp53ZxArGhnw5HMZziPFjog==
 
-zod@^3.22.4:
+zod@^3.22.4, zod@^3.23.8:
   version "3.23.8"
   resolved "https://registry.npmmirror.com/zod/-/zod-3.23.8.tgz#e37b957b5d52079769fb8097099b592f0ef4067d"
   integrity sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==
