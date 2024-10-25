@@ -5,13 +5,15 @@
   "license": "MIT",
   "scripts": {
     "compile": "tsc -b tsconfig.json",
-    "start": "node dist/day3/index.js",
-    "cstart": "yarn compile && node dist/day3/index.js"
+    "start": "node dist/day6/index.js",
+    "cstart": "yarn compile && node dist/day6/index.js"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.7",
     "@langchain/core": "^0.3.3",
     "@langchain/langgraph": "^0.2.15",
     "@langchain/openai": "^0.3.0",
+    "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
     "langchain": "^0.3.2",
     "typescript": "^5.6.2"
